@@ -1,6 +1,6 @@
 {
-  "vendor": "vtex",
-  "name": "minimumtheme",
+  "vendor": "compasso",
+  "name": "cursostorefrontka",
   "version": "0.1.1",
   "builders": {
     "styles": "2.x",
@@ -11,6 +11,7 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
+    "vtex.search-result": "3.x",
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
     "vtex.product-summary": "2.x",
@@ -24,7 +25,6 @@
     "vtex.minicart": "2.x",
     "vtex.product-details": "1.x",
     "vtex.product-kit": "1.x",
-    "vtex.search-result": "3.x",
     "vtex.login": "2.x",
     "vtex.my-account": "1.x",
     "vtex.flex-layout": "0.x",
@@ -44,6 +44,10 @@
     "vtex.iframe": "0.x",
     "vtex.breadcrumb": "1.x",
     "vtex.sticky-layout": "0.x",
+    "vtex.condition-layout": "1.x",
+    "vtex.store-link": "0.x",
+    "vtex.modal-layout": "0.x",
+    "vtex.product-price": "1.x",
     "vtex.add-to-cart-button": "0.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"

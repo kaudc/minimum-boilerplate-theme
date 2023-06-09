@@ -1,0 +1,28 @@
+{
+    "store.custom#landing": {
+      "blocks": [
+        "image#landingbanner",
+       "search-result-layout.customQuery"
+      ]
+    },
+    "image#landingbanner":{
+      "props": {
+        "minWidth":"100%",
+        "src":"https://img.freepik.com/vetores-gratis/seamless-woman-sapatos-modernos-sketch-pattern-background-vector-illustration_1284-1978.jpg?w=2000"
+      }
+    },
+    "search-result-layout.customQuery":{
+      "blocks": [
+               "search-result-layout.desktop"
+             ],
+      "props": {
+        "querySchema": {
+          "queryField": "Sandalia",
+          "mapField":"ft",
+          "maxItemsPerPage":8,
+          "orderByField":"OrderByReleaseDateDESC",
+          "hideUnavailableItems": true
+        }
+      }
+    }
+  }

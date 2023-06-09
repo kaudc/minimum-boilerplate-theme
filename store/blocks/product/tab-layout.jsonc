@@ -1,0 +1,49 @@
+{
+    "tab-layout#product": {
+    "children": [
+      "tab-list#pdp",
+      "tab-content#pdp"
+    ]
+  },
+  "tab-list#pdp": {
+    "children": [
+      "tab-list.item#01",
+      "tab-list.item#02"
+      ]
+  },
+  "tab-list.item#01": {
+    "props": {
+      "tabId": "1",
+      "label": "Bloco de fotos 1",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#02": {
+    "props": {
+      "tabId": "2",
+      "label": "Bloco de fotos 2"
+    }
+  },
+  "tab-content#pdp": {
+    "children": [
+      "tab-content.item#01",
+      "tab-content.item#02"
+      ]
+  },
+  "tab-content.item#01": {
+    "children": [
+      "slider-layout#product"
+    ],
+    "props": {
+      "tabId": "1"
+    }
+  },
+  "tab-content.item#02": {
+    "children": [
+      "slider-layout#product2"
+    ],
+    "props": {
+      "tabId": "2"
+    }
+  }
+  }
